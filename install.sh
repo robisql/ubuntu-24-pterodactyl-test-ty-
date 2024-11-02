@@ -639,7 +639,6 @@ if [ -d "/var/www/controlpanel" ]; then
       fi
     else
       print_warning "The panel is already installed, aborting..."
-      exit 1
   fi
 fi
 
